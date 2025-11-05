@@ -132,7 +132,7 @@ class _NewsFormPageState extends State<NewsFormPage> {
                       borderRadius: BorderRadius.circular(5.0),
                     ),
                   ),
-                  onChanged: (String? value) {
+                  onChanged: (String? value) { 
                     setState(() {
                       _thumbnail = value!;
                     });
